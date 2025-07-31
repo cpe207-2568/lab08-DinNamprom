@@ -88,7 +88,7 @@ function TypeInput() {
   )
 }
 
-function Card({ title: Title, card_text: Text, isDone: isd }: CardProps) {
+function Card({ title: Title, card_text: Text}: CardProps) {
   return (
     <div className="card mb-3">
       <div className="card-body">
