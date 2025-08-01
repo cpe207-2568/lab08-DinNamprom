@@ -1,6 +1,6 @@
-import type { CardProps } from "../lib/type";
+import type { TaskCardProps } from "../lib/type";
 
-export function Card({ title: Title, card_text: Text}: CardProps) {
+export function Card({ title: Title, description: Text}: TaskCardProps) {
   return (
     <div className="card mb-3">
       <div className="card-body">

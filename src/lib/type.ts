@@ -21,11 +21,3 @@ interface FooterProps  {
   studentId: string | number;
 };
 export type { FooterProps  };
-
-interface CardProps {
-  id: number;
-  title: string;
-  card_text: string;
-  isDone?: boolean;
-}
-export type {CardProps};
